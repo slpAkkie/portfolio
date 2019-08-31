@@ -1,0 +1,200 @@
+@font-face
+  font-family: 'Montserrat'
+  src: url(../fonts/Montserrat-Regular.ttf)
+  font-weight: normal
+
+@font-face
+  font-family: 'Montserrat'
+  src: url(../fonts/Montserrat-Medium.ttf)
+  font-weight: 500
+
+@font-face
+  font-family: 'Montserrat'
+  src: url(../fonts/Montserrat-Bold.ttf)
+  font-weight: bold
+
+body
+  font-family: 'Montserrat'
+  font-weight: normal
+  color: #ffffff
+  background-color: #370800
+  font-size: 16px
+
+a
+  color: #ffffff
+  transition: all .25s ease
+
+a:hover
+  color: #afa09d
+
+a.button
+  display: flex
+  font-weight: bold
+  justify-content: center
+  align-items: center
+  margin-left: auto
+  margin-right: auto
+
+a.button:hover
+  color: #680000
+  text-decoration: none
+  transform: translateY(-4px)
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, .75)
+
+p
+  font-weight: 500
+  font-size: 1rem
+  line-height: 34px
+  word-spacing: .1rem
+
+
+h1, h2, h3, h4, h5, h6
+  font-weight: bold
+  letter-spacing: .5rem
+
+h2
+  font-size: 3.75rem
+  margin-bottom: 55px
+
+h6
+  font-size: 1.125rem
+  letter-spacing: .2rem
+
+h5
+  font-size: 1.75rem
+  letter-spacing: .2rem
+
+.font-normal
+  font-weight: normal
+
+header
+  min-height: 940px
+  height: 100vh
+  max-height: 1000px
+  background-image: url('../img/header-bg.jpg')
+  background-repeat: no-repeat
+  background-position: center center
+  background-size: cover
+  padding-bottom: 200px
+
+  nav
+    background-color: rgba(55, 8, 0, .75)
+    // height: 88px
+    padding: .5rem 0 !important
+    
+    ul
+      width: 100%
+
+    .navbar-phone, .navbar-mail
+      display: block
+      font-size: 1.125rem
+
+    .navbar-mail
+      color: #ababab
+  
+  .action
+    margin-top: 180px
+
+    h1
+      font-size: 7rem
+      line-height: 7rem
+
+    p
+      font-size: 1.484375rem
+      margin-top: 1rem
+      margin-left: 10px
+      letter-spacing: .1rem
+
+    a.button
+      margin-top: 130px
+      height: 60px
+      width: 290px
+      font-size: 1.5625rem
+      background: linear-gradient(#ff0000, #a30000)
+
+section.pluses
+  background-image: url('../img/section_pluses-bg.jpg')
+  background-repeat: no-repeat
+  background-position: center center
+  background-size: cover
+  padding: 65px 0
+  
+  .row:not(:last-child)
+    margin-bottom: 90px
+
+  img
+    margin-top: 29.5px
+
+section.examples
+  padding: 100px 0
+  background-image: url('../img/section_carousel-bg.jpg')
+  background-repeat: no-repeat
+  background-position: center center
+  background-size: cover
+
+  #carousel
+    transform: skewY(4px)
+  
+  h2
+    text-align: center
+    margin-bottom: 70px
+  
+  .carousel-item img
+    width: 100%
+    height: auto
+    margin: 0 auto
+
+  [class^=carousel-control]
+    filter: invert(50%)
+
+section.materials
+  padding: 160px 0
+  background-image: url('../img/section_materials-bg.jpg')
+  background-repeat: no-repeat
+  background-position: center center
+  background-size: cover
+
+section.price
+  padding: 130px 0
+  text-align: center
+  background-image: url('../img/section_price-bg.jpg')
+  background-repeat: no-repeat
+  background-position: center center
+  background-size: cover
+
+  p
+    margin-bottom: 110px
+  
+  .cat-price
+    padding: 55px 250px
+    border: 1px solid rgba(255, 255, 255, .45)
+    background-color: rgba(0, 0, 0, .45)
+    flex-direction: column
+    margin-top: 30px
+
+    p
+      margin: 0
+      font-size: .875rem
+    
+    h5
+      margin: 15px 0
+
+    a.button
+      font-size: .875rem
+      width: 215px
+      height: 40px
+      background: linear-gradient(#09c73a, #03912f)
+      margin-top: 50px
+
+    a.button:hover
+      color: #033c14
+
+footer
+  text-align: center
+  padding: 90px 0
+
+  .contacts
+    margin-top: 60px
+
+    p
+      margin: 0
