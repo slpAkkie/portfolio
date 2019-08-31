@@ -1,0 +1,128 @@
+body
+  font-size: $basic-font
+  font-family: 'Roboto'
+  font-weight: 300
+  header
+    @extend %background
+    background-image: url('/img/background--header.png')
+    position: relative
+    nav.navbar
+      padding-bottom: 1.785714285714rem
+      padding-top: 1.785714285714rem
+      transition: $transition
+      .navbar-brand
+        display: flex
+        align-items: center
+        padding: 0
+        svg
+          margin-right: 0.714285714285rem
+        span
+          font-family: 'Roboto'
+          color: $accent-text-color
+          font-size: 2.142857rem
+      .navbar-nav
+        .nav-item
+          font-family: 'Roboto'
+          font-weight: bolder
+          text-transform: uppercase
+          text-align: left
+          font-size: 0.9285714rem
+          letter-spacing: 0.017857142857rem
+          .nav-link
+            color: $light-text-color
+            padding-left: 0.892857142857rem
+            padding-right: 0.892857142857rem
+            transition: $transition
+          &.active
+            .nav-link
+              color: $accent-text-color
+    main
+      padding-top: 17.14285714285rem
+      padding-bottom: 5rem
+      .button
+        margin-top: 3.785714285714rem
+      .bg-controls
+        margin-top: 9.071428571428rem
+        cursor: default
+        .dot
+          cursor: pointer
+          display: inline-block
+          width: 0.71428rem
+          height: 0.71428rem
+          border: 0.091428571428rem solid $neutral-color
+          border-radius: 0.357142857142rem
+          transition: $transition
+          &:not(:last-child)
+            margin-right: 0.357142857142rem
+          &:hover
+            background-color: $neutral-color
+          &.active
+            background-color: $accent-color
+            border-color: $accent-color
+  main
+    .our-story-video
+      @extend %background
+      background-image: url('/img/background--our-story.png')
+      .overlay--tone
+        padding-bottom: 14.28571428571rem
+        padding-top: 14.28571428571rem
+    .expertise
+      .container
+        & > h4
+          color: $neutral-color
+        h2
+          margin-bottom: .5rem
+        .table
+          .table-row
+            &:nth-child(even)
+              border-top: 1px solid $light-gray
+            .table-item
+              padding-top: 40px
+              padding-bottom: 40px
+              padding-left: 32px
+              padding-right: 32px
+              &:nth-child(even)
+                border-left: 1px solid $light-gray
+                border-right: 1px solid $light-gray
+              .icon
+                display: flex
+                justify-content: center
+                align-items: center
+                padding-bottom: 35px
+                height: 91px
+    .our-team
+      @extend %background
+      background-image: url('../img/background--our-team.png')
+      .item
+        .descr
+          border: 1px solid $neutral-color
+          padding-top: 24px
+          padding-bottom: 24px
+        img
+          width: 100%
+        p
+          margin: 0
+      .row > p
+        padding-top: 70px
+        padding-bottom: 30px
+    .our-works
+      .row
+        img
+          width: 100%
+    .quote
+      @extend %background
+      background-image: url('../img/background--quote.png')
+      h2
+        font-size: 100px
+      h4
+        font-family: 'Roboto'
+        letter-spacing: .5px
+
+@media screen and (max-width: 991px)
+  header
+    nav.navbar
+      padding-top: 0.71428rem !important
+      padding-bottom: 0.71428rem !important
+      background: $primary-bg
+      li
+        text-align: right !important
