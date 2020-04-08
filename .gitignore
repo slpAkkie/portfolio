@@ -38,14 +38,14 @@ ehthumbs.db
 Desktop.ini
 
 # Recycle Bin used on file shares
-$RECYCLE.BIN/
+$RECYCLE.BIN
 
 # Windows shortcuts
 *.lnk
 
 
 ### Sass ###
-.sass-cache/
+.sass-cache
 *.css.map
 
 
@@ -53,3 +53,4 @@ $RECYCLE.BIN/
 # Visual Studio Code
 .settings/
 .vscode/
+.vs

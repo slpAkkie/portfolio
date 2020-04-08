@@ -1,0 +1,15 @@
+/**
+ * third-party styles
+ */
+@import '../../bower_components/bootstrap4/scss/bootstrap';
+@import '../../bower_components/fontawesome/scss/fontawesome';
+
+/**
+ * custom styles
+ */
+@import 'partials/_fonts';
+@import 'partials/_variables';
+@import 'partials/_theme';
+@import 'partials/_service-classes';
+@import 'partials/_mixin';
+@import 'partials/_app';
