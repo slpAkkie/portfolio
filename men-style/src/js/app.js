@@ -6,4 +6,4 @@
 /*
  *  Custom
  */
-//= partials/app.js
+//= partials/_app.js
