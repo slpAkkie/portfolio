@@ -4,7 +4,7 @@ body {
   font-weight: 300;
   header {
     @extend %background;
-    background-image: url('/img/background--header.png');
+    background-image: url('../img/background--header.png');
     position: relative;
     nav.navbar {
       padding-bottom: 1.785714285714rem;
@@ -79,7 +79,7 @@ body {
   main {
     .our-story-video {
       @extend %background;
-      background-image: url('/img/background--our-story.png');
+      background-image: url('../img/background--our-story.png');
       .overlay--tone {
         padding-bottom: 14.28571428571rem;
         padding-top: 14.28571428571rem;
