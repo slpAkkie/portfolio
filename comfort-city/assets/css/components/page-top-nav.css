@@ -1,0 +1,242 @@
+/*
+|
+|---------------------------------------------
+| Styles for navigation panel at the top of the page
+|---------------------------------------------
+|
+*/
+
+
+
+
+
+/*
+|---------------
+|      Nav
+|---------------
+*/
+
+.page-top-nav {
+
+  /* Component Vars */
+  --height: 50px;
+  --width: 500px;
+
+  /* Positioning */
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+
+  /* Display */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  /* Dimensions */
+  width: 100%;
+  height: var(--height);
+
+  /* Font */
+  font-size: 1.1em;
+
+  /* Appearance */
+  color: var(--c-white);
+  background-color: var(--c-dark);
+
+}
+
+.page-top-nav__menu-container { height: 100% }
+
+.page-top-nav__menu {
+
+  /* Dimension */
+  width: var(--width);
+  height: 100%;
+
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.page-top-nav__menu-list {
+
+  /* Display */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  /* Dimension */
+  height: 100%;
+
+}
+
+.page-top-nav__menu-item {
+
+  /* Positioning */
+  position: relative;
+
+  /* Display */
+  display: flex;
+  align-items: center;
+
+  /* Dimension */
+  padding-right: calc( var(--s-inner-gap) / 2 );
+  padding-left: calc( var(--s-inner-gap) / 2 );
+
+  /* Font */
+  line-height: 0;
+
+  /* Behavior */
+  cursor: pointer;
+
+}
+
+.page-top-nav__menu-item:before {
+
+  content: '';
+
+  /* Positioning */
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+
+  /* Dimension */
+  width: 100%;
+  height: 0px;
+
+  /* Appearance */
+  background-color: var(--c-accent);
+
+  /* Behavior */
+  transition: height 0.2s ease;
+  z-index: -1;
+
+}
+
+.page-top-nav__menu-item:hover:before { height: 12% }
+
+
+
+
+/*
+|---------------
+|    Burger
+|---------------
+*/
+
+.page-top-nav__burger {
+
+  /* Component Vars */
+  --height: 20px;
+  --width: 30px;
+  --line-height: 2px;
+  --line-color: var(--c-white);
+
+  /* Positioning */
+  position: relative;
+
+  /* Dimensions */
+  width: var(--width);
+  height: var(--height);
+
+  /* Display */
+  display: none;
+
+  /* Behavior */
+  cursor: pointer;
+
+}
+
+.burger__middle-line,
+.page-top-nav__burger:before,
+.page-top-nav__burger:after {
+
+  content: '';
+
+  /* Positioning */
+  position: absolute;
+  left: 0px;
+  right: 0px;
+
+  /* Dimensions */
+  width: inherit;
+  height: var(--line-height);
+
+  /* Appearance */
+  background-color: var(--line-color);
+
+}
+
+.page-top-nav__burger:before { top: 0px }
+
+.page-top-nav__burger:after { bottom: 0px }
+
+.burger__middle-line { top: calc( (var(--height) - var(--line-height)) / 2 ) }
+
+
+
+
+
+/*
+|---------------
+| Media Queries
+|---------------
+*/
+
+@media screen and (max-width: 559px) {
+
+  .page-top-nav__burger { display: block }
+
+  .page-top-nav__menu-container {
+
+    /* Positioning */
+    position: absolute;
+    top: var(--height);
+    left: 0px;
+    right: 0px;
+
+    /* Dimension */
+    height: 0px;
+
+    /* Apperance */
+    background-color: inherit;
+    overflow: hidden;
+
+    /* Behavior */
+    transition: height 0.2s ease;
+
+  }
+
+  .page-top-nav__menu {
+
+    /* Dimension */
+    padding-bottom: calc( var(--s-inner-gap) / 2 );
+
+  }
+
+  .page-top-nav__menu-list {
+
+    /* Display */
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .page-top-nav__menu-item {
+
+    /* Font */
+    line-height: normal;
+
+    /* Dimension */
+    padding-top: 0.42em;
+    padding-bottom: 0.42em;
+
+  }
+
+  .page-top-nav__menu-container.collapsed { height: initial }
+
+}

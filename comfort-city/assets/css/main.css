@@ -1,0 +1,12 @@
+/*
+|
+|---------------------------------------------
+| Importing main files providing base styling
+|---------------------------------------------
+|
+*/
+
+@import './font.css';
+@import './vars.css';
+@import './normilize.css';
+@import './general.css';

@@ -1,0 +1,48 @@
+/*
+|
+|---------------------------------------------
+| Variables for easy costimible
+|---------------------------------------------
+|
+*/
+
+:root {
+
+  /*
+  |---------------
+  |    Font
+  |---------------
+  */
+
+  --f-base-family: 'Roboto';
+  --f-base-size: 14px;
+
+
+
+  /*
+  |---------------
+  |    Colors
+  |---------------
+  */
+
+  --c-white: #fafaff;
+
+  --c-primary: #80ffdb;
+  --c-secondary: #64dfdf;
+  --c-accent: #6930c3;
+  --c-dark: #252525;
+
+
+
+  /*
+  |---------------
+  |  Dimensions
+  |---------------
+  */
+
+  --s-rounding: .25em;
+
+  --s-inner-gap: 30px;
+  --s-outer-gap: 30px;
+
+}

@@ -1,0 +1,43 @@
+/*
+|
+|---------------------------------------------
+| Importing styles for general components
+|---------------------------------------------
+|
+*/
+
+@import './components/page-top-nav.css';
+
+
+
+
+
+/*
+|
+|---------------------------------------------
+| General styles for all pages
+|---------------------------------------------
+|
+*/
+
+
+
+
+
+/*
+|---------------
+|     Grid
+|---------------
+*/
+
+.page-container {
+
+  /* Dimension */
+  max-width: 1140px;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--s-inner-gap);
+  padding-right: var(--s-inner-gap);
+
+}

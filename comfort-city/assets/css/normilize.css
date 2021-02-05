@@ -1,0 +1,52 @@
+/*
+|
+|---------------------------------------------
+| Reset styles for base tags
+|---------------------------------------------
+|
+*/
+
+body {
+
+  /* Dimension */
+  margin: 0;
+
+  /* Font */
+  font-family: var(--f-base-family);
+  font-size: var(--f-base-size);
+
+}
+
+*,
+:after,
+:before {
+
+  /* Dimension */
+  box-sizing: border-box;
+
+  /* Appearance */
+  box-shadow: 0px 0px 0px 0px var(--c-heavenly-op-25);
+  outline: none;
+  border: 0px solid var(--c-heavenly);
+}
+
+a {
+
+  /* Font */
+  color: inherit;
+
+  /* Appearance */
+  text-decoration: inherit;
+
+}
+
+ul {
+
+  /* Dimension */
+  margin: 0;
+  padding: 0;
+
+  /* Appearance */
+  list-style-type: none;
+
+}
