@@ -14,8 +14,9 @@ _( () => {
    * ====================
    */
 
-  _( '.page-top-nav__burger' ).on( 'click', () => {
-    _( '.page-top-nav__menu-container' ).toggleClass( 'collapsed' )
+  _( '.page-top-nav__burger' ).on( 'click', function () {
+    _( '.page-top-nav__menu-container' ).toggleClass( 'collapsed' );
+    this.toggleClass( 'active' );
   } )
 
 } );
