@@ -1,0 +1,73 @@
+/*
+|
+|---------------------------------------------
+| Styles for page header
+|---------------------------------------------
+|
+*/
+
+
+
+
+
+.page-header {
+
+  /* Font */
+  font-size: 18px;
+
+  /* Appearance */
+  background-image: url(../../img/header__background.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: center;
+
+}
+
+.page-header__wrapper {
+
+  /* Dimension */
+  padding-top: 75px;
+  padding-bottom: 25px;
+
+  /* Appearance */
+  background-color: rgb(0 53 38 / 75%);
+}
+
+.page-header__inner { }
+
+.header__heading { color: var(--c-highlight) }
+
+.header__title { margin-top: 1.15em }
+
+.header__slogan { text-align: right }
+
+.header__angle-down {
+
+  /* Dimension */
+  margin-top: 90px;
+
+  /* Font */
+  color: var(--c-white);
+  font-size: 1.25em;
+
+}
+
+
+
+
+
+/*
+|---------------
+| Media Queries
+|---------------
+*/
+
+@media screen and (max-width: 839px) {
+
+  .row.header__heading { flex-direction: column }
+
+  .header__heading,
+  .header__slogan { text-align: center }
+
+}
