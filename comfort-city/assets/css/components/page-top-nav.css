@@ -45,6 +45,9 @@
   color: var(--c-white);
   background-color: var(--c-dark);
 
+  /* Behavior */
+  z-index: 1000;
+
 }
 
 .page-top-nav__menu-container { height: 100% }
@@ -108,7 +111,7 @@
   height: 0px;
 
   /* Appearance */
-  background-color: var(--c-accent);
+  background-color: var(--c-secondary);
 
   /* Behavior */
   transition: height 0.2s ease;
