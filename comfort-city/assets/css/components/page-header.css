@@ -12,6 +12,9 @@
 
 .page-header {
 
+  /* Local Vars */
+  --gap: 90px;
+
   /* Font */
   font-size: 18px;
 
@@ -19,22 +22,21 @@
   background-image: url(../../img/header__background.jfif);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-y: center;
+  background-position-y: -350px;
   background-position-x: center;
+  background-attachment: fixed;
 
 }
 
 .page-header__wrapper {
 
   /* Dimension */
-  padding-top: 75px;
+  padding-top: var(--gap);
   padding-bottom: 25px;
 
   /* Appearance */
   background-color: rgb(0 53 38 / 75%);
 }
-
-.page-header__inner { }
 
 .header__heading { color: var(--c-highlight) }
 
@@ -45,7 +47,7 @@
 .header__angle-down {
 
   /* Dimension */
-  margin-top: 90px;
+  margin-top: var(--gap);
 
   /* Font */
   color: var(--c-white);
@@ -63,11 +65,17 @@
 |---------------
 */
 
-@media screen and (max-width: 839px) {
+@media screen and (max-width: 849px) {
 
   .row.header__heading { flex-direction: column }
 
   .header__heading,
   .header__slogan { text-align: center }
+
+}
+
+@media screen and (max-width: 379px) {
+
+  .page-header { font-size: inherit; }
 
 }
