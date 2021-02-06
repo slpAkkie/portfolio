@@ -28,12 +28,23 @@
   --c-white: #fafaff;
 
   --c-primary: #80ffdb;
-  --c-secondary: #64dfdf;
-  --c-accent: #6930c3;
+  --c-primary-o-25: #80ffdb40;
+  --c-primary-o-15: #80ffdb25;
+
+  --c-secondary: #09b1b1;
+  --c-secondary-o-25: #09b1b140;
+  --c-secondary-o-15: #09b1b125;
+
+  --c-accent: #4b00c1;
+  --c-accent-o-25: #4b00c140;
+  --c-accent-o-15: #4b00c125;
+
   --c-dark: #252525;
+  --c-dark-o-25: #25252540;
+  --c-dark-o-15: #25252525;
+  --c-dark-mute: #25252580;
 
   --c-highlight: #bbffff;
-  --c-highlight-o-25: #bbffff40;
 
 
 
@@ -43,11 +54,15 @@
   |---------------
   */
 
+  --s-page-min-width: 320px;
+
   --s-header-height: 50px;
 
   --s-rounding: .25em;
 
   --s-inner-gap: 30px;
   --s-outer-gap: 30px;
+
+  --s-section-padding: calc( var(--s-inner-gap) * 2 );
 
 }
