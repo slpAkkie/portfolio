@@ -10,6 +10,7 @@ body {
 
   /* Dimension */
   margin: 0;
+  padding-top: var(--s-header-height);
 
   /* Font */
   font-family: var(--f-base-family);
@@ -50,3 +51,10 @@ ul {
   list-style-type: none;
 
 }
+
+h1 { font-size: 2em }
+h2 { font-size: 1.75em }
+h3 { font-size: 1.5em }
+h4 { font-size: 1.25em }
+h5 { font-size: 1em }
+h6 { font-size: 0.75em }
