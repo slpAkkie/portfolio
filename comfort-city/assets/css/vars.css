@@ -32,6 +32,8 @@
   --c-accent: #6930c3;
   --c-dark: #252525;
 
+  --c-highlight: #bbffff;
+
 
 
   /*
@@ -39,6 +41,8 @@
   |  Dimensions
   |---------------
   */
+
+  --s-header-height: 50px;
 
   --s-rounding: .25em;
 
