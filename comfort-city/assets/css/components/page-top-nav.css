@@ -52,7 +52,7 @@
 .page-top-nav__menu {
 
   /* Dimension */
-  width: var(--width);
+  max-width: var(--width);
   height: 100%;
 
   margin-left: auto;
@@ -86,7 +86,7 @@
   padding-left: calc( var(--s-inner-gap) / 2 );
 
   /* Font */
-  line-height: 0;
+  text-align: center;
 
   /* Behavior */
   cursor: pointer;
@@ -220,7 +220,7 @@
 
     /* Positioning */
     position: absolute;
-    top: var(--height);
+    top: calc( var(--height) - 1px );
     left: 0px;
     right: 0px;
 
@@ -230,9 +230,6 @@
     /* Apperance */
     background-color: inherit;
     overflow: hidden;
-
-    /* Behavior */
-    transition: height 0.2s ease;
 
   }
 
@@ -253,9 +250,6 @@
   }
 
   .page-top-nav__menu-item {
-
-    /* Font */
-    line-height: normal;
 
     /* Dimension */
     padding-top: 0.42em;
