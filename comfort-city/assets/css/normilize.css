@@ -9,6 +9,7 @@
 body {
 
   /* Dimension */
+  min-width: var(--s-page-min-width);
   margin: 0;
   padding-top: var(--s-header-height);
 
@@ -26,9 +27,9 @@ body {
   box-sizing: border-box;
 
   /* Appearance */
-  box-shadow: 0px 0px 0px 0px var(--c-highlight-o-25);
+  box-shadow: 0px 0px 0px 0px var(--c-dark-o-25);
   outline: none;
-  border: 0px solid var(--c-highlight);
+  border: 0px solid var(--c-dark-o-25);
 }
 
 a {
@@ -52,9 +53,9 @@ ul {
 
 }
 
-h1 { font-size: 2em }
-h2 { font-size: 1.75em }
-h3 { font-size: 1.5em }
-h4 { font-size: 1.25em }
-h5 { font-size: 1em }
-h6 { font-size: 0.75em }
+h1 { font-size: 2.25em }
+h2 { font-size: 2em }
+h3 { font-size: 1.75em }
+h4 { font-size: 1.5em }
+h5 { font-size: 1.25em }
+h6 { font-size: 1em }
