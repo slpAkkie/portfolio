@@ -26,9 +26,9 @@ body {
   box-sizing: border-box;
 
   /* Appearance */
-  box-shadow: 0px 0px 0px 0px var(--c-heavenly-op-25);
+  box-shadow: 0px 0px 0px 0px var(--c-highlight-o-25);
   outline: none;
-  border: 0px solid var(--c-heavenly);
+  border: 0px solid var(--c-highlight);
 }
 
 a {
