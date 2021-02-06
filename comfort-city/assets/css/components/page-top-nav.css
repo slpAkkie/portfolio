@@ -19,7 +19,7 @@
 .page-top-nav {
 
   /* Component Vars */
-  --height: 50px;
+  --height: var(--s-header-height, 50px);
   --width: 500px;
 
   /* Positioning */
