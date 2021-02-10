@@ -24,13 +24,17 @@
 
 .request-card__inner {
 
+  /* Positioning */
+  position: relative;
+  top: 0px;
+
   /* Appearance */
   border-radius: var(--s-rounding);
   border-width: 1px;
   overflow: hidden;
 
   /* Behavior */
-  transition: transform 0.15s ease,
+  transition: top 0.15s ease,
               box-shadow 0.15s ease;
 
 }
@@ -43,7 +47,7 @@
               0px 10px 15px 0px var(--c-secondary-o-15);
 
   /* Behavior */
-  transform: translateY(-2px);
+  top: -2px;
 
 }
 
