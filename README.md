@@ -6,5 +6,7 @@
 
 ## Работы
 
-- [MenStyle](men-style) - лэндинг сайта пошива мужских костюмов
+- [MenStyle](men-style) - Лэндинг сайта пошива мужских костюмов
 - [Tajam](tajam) - Лэндинг команды разработчиков
+- [ComfortCity](comfort-city) - Лэндинг
+- [Merkury](merkury) - Лэндинг бизнес-компании
