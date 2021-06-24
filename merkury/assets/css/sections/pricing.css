@@ -1,0 +1,53 @@
+.section_pricing {
+  padding: 2rem 0 3.4rem 0;
+}
+
+.section_pricing__title {
+  margin-bottom: 10rem;
+}
+
+.section_pricing__cards {
+  display: flex;
+  justify-content: center;
+}
+
+.section_pricing__footer {
+  margin-top: 10.5rem;
+}
+
+.section_pricing__footer-text {
+  width: 87rem;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.section_pricing__button-row {
+  position: relative;
+
+  width: 72rem;
+  margin: 7rem auto;
+
+  text-align: center;
+}
+
+.section_pricing__button-row::after,
+.section_pricing__button-row::before {
+  content: '';
+
+  position: absolute;
+  top: calc(50% - .05rem);
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  width: 23rem;
+  height: 0.1rem;
+
+  background-color: var(--accent-light);
+  opacity: .3;
+}
+
+.section_pricing__button-row::before {
+  left: unset;
+}

@@ -1,0 +1,29 @@
+.section_powerfull {
+  padding: 10rem 0 11rem 0;
+}
+
+.section_powerfull__title {
+  margin-bottom: 6rem;
+}
+
+.section_powerfull__description {
+  width: 100rem;
+  margin: 0 auto 9rem auto;
+
+  text-align: center;
+}
+
+.section_powerfull__main {
+  position: relative;
+
+  width: 134rem;
+  margin: 0 auto;
+}
+
+.section_powerfull__mokup-wrapper {
+  text-align: center;
+}
+
+.section_powerfull__mokup {
+  width: 121.8rem;
+}

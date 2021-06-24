@@ -1,0 +1,45 @@
+.button {
+  --text-color: var(--white);
+  --background-color: var(--accent);
+  --border: var(--accent-op30);
+  --text-color_hover: var(--accent);
+  --background-color_hover: transparent;
+
+  display: inline-block;
+
+  padding: 1.3rem 5.5rem;
+
+  text-align: center;
+  color: var(--text-color);
+  font-size: 1.8rem;
+
+  background-color: var(--background-color);
+  border: .1rem solid var(--border);
+  border-radius: 5rem;
+
+  cursor: pointer;
+  transition-property: color, background-color;
+  transition-duration: .15s;
+  transition-timing-function: ease;
+}
+
+.button_dark {
+  --text-color: var(--accent);
+  --background-color: var(--accent-dark);
+  --text-color_hover: var(--white);
+  --background-color_hover: var(--accent);
+}
+
+.button_light {
+  --text-color: var(--accent-dark);
+  --background-color: var(--white);
+  --border: var(--accent-light-op30);
+  --text-color_hover: var(--white);
+  --background-color_hover: var(--accent);
+}
+
+.button:hover {
+  color: var(--text-color_hover);
+
+  background-color: var(--background-color_hover);
+}

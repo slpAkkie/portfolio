@@ -1,0 +1,81 @@
+/* ul */
+
+ul.ul {
+  padding-left: 4.5rem;
+}
+
+
+
+/* li */
+
+ul.ul > li {
+  position: relative;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  min-height: 2.8rem;
+
+  font-size: 2.2rem;
+}
+
+ul.ul > li::before {
+  content: '';
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -4.5rem;
+
+  width: 2.8rem;
+  height: 2.8rem;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul.ul > li:nth-child(n+1) {
+  margin-top: 3.2rem;
+}
+
+
+
+/* li small */
+
+ul.ul.ul_small {
+  padding-left: 4.2rem;
+}
+
+ul.ul.ul_small > li {
+  min-height: 2.4rem;
+
+  font-size: 1.8rem;
+}
+
+ul.ul.ul_small > li:nth-child(n+1) {
+  margin-top: 1.7rem;
+}
+
+ul.ul.ul_small > li::before {
+  left: -4.2rem;
+
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+
+
+/* li ok */
+
+ul.ul.ul_ok > li::before {
+  background-image: url(../../img/marker_ok.png);
+}
+
+
+
+/* li cancel */
+
+ul.ul.ul_cancel > li::before {
+  background-image: url(../../img/marker_cancel.png);
+}

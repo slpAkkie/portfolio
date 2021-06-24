@@ -1,0 +1,11 @@
+.section_opportunities {
+  width: 150rem;
+  margin: 0 auto;
+  padding: 13rem 0 3.7rem;
+}
+
+.section_opportunities__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}

@@ -1,0 +1,13 @@
+.container {
+  max-width: 176rem;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+
+.text_muted {
+  color: var(--accent-light);
+}
+
+.section__title_center {
+  text-align: center;
+}

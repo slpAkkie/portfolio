@@ -1,0 +1,73 @@
+.header {
+  margin-bottom: 12.8rem;
+  padding-top: 7rem;
+
+  background: url(../../img/graph.png), var(--accent-dark);
+  background-repeat: no-repeat;
+  background-position: center 20rem;
+  background-size: contain;
+}
+
+.header__inner {
+  background: url(../../img/grid.png);
+  background-repeat: no-repeat;
+  background-position: center -2.5rem;
+  background-size: 200rem;
+}
+
+.header__title,
+.header__sub-title {
+  text-align: center;
+}
+
+.header__title {
+  margin-bottom: 3rem;
+
+  color: var(--white);
+}
+
+.header__sub-title {
+  margin-bottom: 8.5rem;
+
+  color: var(--accent-light);
+}
+
+.header__get-started {
+  text-align: center;
+  font-weight: 700;
+}
+
+.header__dashboard {
+  position: relative;
+
+  width: 88.2rem;
+  height: 49.3rem;
+  margin: 8rem auto 0;
+
+  text-align: center;
+
+  box-shadow: 0 0 4rem -1rem var(--accent);
+}
+
+.header__dashboard-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+}
+
+.header__dashboard-offset {
+  position: absolute;
+  right: 0;
+  bottom: -12.8rem;
+  left: 0;
+
+  width: 88.2rem;
+  height: 15.8rem;
+  margin: 0 auto;
+
+  box-shadow: -5px 0 4rem -1.5rem var(--accent-dark);
+
+  z-index: -1;
+}

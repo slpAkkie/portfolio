@@ -1,0 +1,30 @@
+.card_opportunity {
+  width: 36rem;
+  margin: 0 6.25rem;
+
+  text-align: center;
+}
+
+.card__icon-wrapper {
+  display: inline-flex;
+  align-items: center;
+
+  height: 8.8rem;
+  width: 8rem;
+}
+
+.card__icon {
+  width: 100%;
+}
+
+.card__article {
+  padding: 5.5rem 0;
+}
+
+.card__title {
+  margin-bottom: 3.3rem;
+}
+
+.card__see-more {
+  font-weight: 700;
+}

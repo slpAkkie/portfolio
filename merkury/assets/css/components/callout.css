@@ -1,0 +1,95 @@
+.callout {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  width: 26rem;
+}
+
+.callout.callout_reverse {
+  left: unset;
+  right: 0;
+
+  align-items: flex-end;
+
+  text-align: right;
+}
+
+.callout__hr {
+  position: relative;
+
+  width: 240%;
+  height: 0.2rem;
+  margin: 2rem 0 3rem;
+
+  background-color: var(--accent);
+  border: none;
+
+  overflow: visible;
+  z-index: 1;
+}
+
+.callout__hr::after,
+.callout__hr::before {
+  content: '';
+
+  position: absolute;
+  top: .1rem;
+  right: 0;
+
+  border-radius: 5rem;
+
+  transform: translate(50%, -50%);
+}
+
+.callout.callout_reverse .callout__hr::after,
+.callout.callout_reverse .callout__hr::before {
+  right: unset;
+  left: 0;
+
+  transform: translate(-50%, -50%);
+}
+
+.callout__hr::after {
+  width: 4.6rem;
+  height: 4.6rem;
+
+  background-color: var(--accent);
+  opacity: .34;
+
+  z-index: 2;
+}
+
+.callout__hr::before {
+  width: 3rem;
+  height: 3rem;
+
+  background-color: var(--accent);
+
+  z-index: -1;
+}
+
+.callout__description {
+  width: 23rem;
+}
+
+
+
+/* Concrete */
+
+/* I dunno why the number is one more but otherwise it does not work */
+.callout:nth-child(2) {
+  top: 8rem;
+}
+
+.callout:nth-child(3) {
+  top: 37rem;
+}
+
+.callout:nth-child(3) .callout__hr {
+  width: 237%;
+}

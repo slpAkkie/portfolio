@@ -1,0 +1,42 @@
+.card_pricing {
+  padding: 4.9rem 5.2rem 4.5rem;
+
+  box-shadow: 0 0 2rem 0rem var(--accent-light-op10),
+              0 0 8rem 0rem var(--accent-light-op30);
+}
+
+.card_pricing:nth-child(n+2) {
+  margin-left: 14rem;
+}
+
+.card_pricing__header {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 400;
+}
+
+.card_pricing__price {
+  padding: 5.5rem 0;
+
+  text-align: center;
+  color: var(--accent-light);
+  font-size: 2.4rem;
+}
+
+.card_pricing__curency,
+.card_pricing__value {
+  color: var(--accent-dark);
+  font-weight: 700;
+}
+
+.card_pricing__curency {
+  font-size: 4rem;
+}
+
+.card_pricing__value {
+  font-size: 7.2rem;
+}
+
+.card_pricing__list {
+  color: var(--accent-light);
+}

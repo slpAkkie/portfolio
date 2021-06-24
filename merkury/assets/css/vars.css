@@ -1,0 +1,38 @@
+:root {
+
+  /* Base font-size 10px (0.5209vw) */
+  --html-font-size: .5209vw;
+
+  /* Body font-size */
+  --font-size: 1.8rem;
+
+  /* Body font-family */
+  --font-family: Roboto;
+
+
+
+  /* Accent */
+  --accent-lighter:         #f6f7fa;
+  --accent-light:           #8492af;
+  --accent-light-op30:      #8492af4d;
+  --accent-light-op10:        #8492af1a;
+
+  --accent:                 #5584ff;
+  --accent-op30:            #5584ff4d;
+  --accent-grad1:           #4b74e0;
+  --accent-grad2:           #4164c2;
+  --accent-grad3:           #3755a4;
+  --accent-grad4:           #3755a4;
+
+  --accent-dark:            #0e1a35;
+  --accent-dark-op30:       #8492af4d;
+  --accent-dark_highlight:  #122143;
+
+  /* Secondary */
+  --secondary:              #f83b7a;
+
+  /* Base */
+  --white:                  #ffffff;
+  --black:                  #000000;
+
+}

@@ -1,0 +1,122 @@
+/* Section */
+
+.section_drag-drop {
+  padding: 15.5rem 0 20rem 0;
+
+  background: url(../../img/graph.png), var(--accent-dark);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: contain;
+}
+
+.section_drag-drop__inner {
+  display: flex;
+
+  background: url(../../img/grid.png);
+  background-repeat: no-repeat;
+  background-position: center -2.5rem;
+  background-size: 200rem;
+}
+
+.section_drag-drop__left,
+.section_drag-drop__right {
+  width: 50%;
+}
+
+
+
+/* Left */
+
+.section_drag-drop__left {
+  display: flex;
+}
+
+.section_drag-drop__left-column {
+  width: 50%;
+}
+
+.section_drag-drop__left-column:nth-child(2) {
+  margin-left: 5rem;
+}
+
+.section_drag-drop__left-header,
+.section_drag-drop__title {
+  color: var(--white);
+}
+
+.section_drag-drop__left-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 3.5rem;
+}
+
+.section_drag-drop__left-number {
+  margin-left: 2.5rem;
+}
+
+.section_drag-drop__left-angel {
+  width: 1.4rem;
+  height: 2.3rem;
+
+  background-image: url(../../img/angle_right.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  cursor: pointer;
+}
+
+.drop-here {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 10.4rem;
+  margin-top: 1.3rem;
+
+  color: var(--accent-light);
+
+  border: .1rem dashed var(--accent-light);
+  border-radius: .1rem;
+}
+
+
+
+/* Right */
+
+.section_drag-drop__right {
+  margin-left: 16rem;
+}
+
+.section_drag-drop__description {
+  width: 50rem;
+}
+
+.section_drag-drop__buttons {
+  display: flex;
+
+  margin-top: 5.5rem;
+}
+
+.section_drag-drop__button_left,
+.section_drag-drop__button_right {
+  width: 3.5rem;
+  height: 3.5rem;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  cursor: pointer;
+}
+
+.section_drag-drop__button_left {
+  background-image: url(../../img/arrow_left.png);
+}
+
+.section_drag-drop__button_right {
+  margin-left: 2rem;
+
+  background-image: url(../../img/arrow_right.png);
+}
