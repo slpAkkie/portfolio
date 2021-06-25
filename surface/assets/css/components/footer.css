@@ -1,0 +1,46 @@
+.footer {
+    padding: 22rem 0 5rem 0;
+
+    color: var(--white);
+
+    background: url(../../img/bg__footer.png), var(--accent-dark);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 15rem;
+}
+
+.footer__icon {
+    width: 13rem;
+    margin-right: 4rem;
+}
+
+.footer__main-title {
+    margin: 0;
+}
+
+.footer__buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__button + .footer__button {
+    margin-left: 5rem;
+}
+
+.footer__logo {
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 26rem;
+}
+
+.footer__logo-image {
+    width: 19.1rem;
+}

@@ -1,0 +1,39 @@
+.header {
+    padding: 4.5rem 0 11rem 0;
+
+    color: var(--white);
+
+    background: url(../../img/bg__header.png), var(--accent-dark);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 8rem;
+}
+
+.header__logo-image {
+    width: 19.1rem;
+}
+
+.header__title {
+    display: flex;
+    flex-direction: column;
+
+    letter-spacing: .1em;
+    line-height: 1.1em;
+}
+
+.header__title-right { align-self: flex-end }
+
+.header__buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.header__button + .header__button {
+    margin-left: 5rem;
+}

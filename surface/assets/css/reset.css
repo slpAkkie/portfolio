@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+
+    outline: none;
+    box-shadow: none;
+}
+
+html {
+    font-size: 0.5209vw; /* 10px */
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 2rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 22rem 0;
+
+    text-transform: uppercase;
+    font-size: 9rem;
+}
+
+h2 {
+    margin: 5rem 0;
+
+    color: var(--muted);
+    text-transform: uppercase;
+    font-size: 8rem;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 3.4rem;
+}
+
+h4 {
+    text-transform: uppercase;
+    color: var(--accent-light);
+    font-size: 3rem;
+}

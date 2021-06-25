@@ -1,0 +1,25 @@
+.container {
+    max-width: 159rem;
+    padding: 0 3rem;
+    margin: 0 auto;
+}
+
+.container_half {
+    max-width: 77.5rem;
+}
+
+.container_no-gutters {
+    padding: 0;
+}
+
+.container_gutter-left {
+    padding: 0 0 0 3rem;
+}
+
+.container_left {
+    margin: 0 auto 0 0;
+}
+
+.container_right {
+    margin: 0 0 0 auto;
+}

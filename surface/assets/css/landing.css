@@ -1,0 +1,15 @@
+.section__image.section__image_athlets {
+    width: 60.5rem;
+
+    transform: translateX(-110%);
+}
+
+.section__image.section__image_players {
+    top: 7%;
+    right: 50%;
+    left: initial;
+
+    width: 100rem;
+
+    transform: translateX(80%);
+}
