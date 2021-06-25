@@ -1,9 +1,9 @@
 # Comfort city
 
-## Автор
+## Описание
 
-Alexandr Shamanin (@slpAkkie)
+Сайт для заявок на благоустройство города
 
-## Лицензия
+## [Превью](https://slpakkie.github.io/frontend/comfort-city/Landing.html)
 
-MIT
+![full-preview](preview.png?raw=true)
