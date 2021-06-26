@@ -1,0 +1,93 @@
+.pricing-card {
+  width: 29.6rem;
+  margin: 0 .5rem;
+  padding: 4rem 1.3rem;
+
+  border-radius: .8rem;
+
+  cursor: pointer;
+  transition-property: box-shadow;
+  transition-duration: .15s;
+  transition-timing-function: ease;
+}
+
+.pricing-card_options {
+  margin-top: 24.2rem;
+
+  cursor: default;
+}
+
+.pricing-card:not(.pricing-card_options):hover {
+  box-shadow: var(--gray-shadow-50);
+}
+
+li.pricing-card__option {
+  position: relative;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  height: 5rem;
+  padding: 1.1rem 2.9rem;
+
+  background-repeat: no-repeat;
+  background-size: 2rem;
+  background-position: center center;
+}
+
+li.pricing-card__option:nth-child(odd) {
+  background-color: var(--lighter);
+}
+
+li.pricing-card__option_ok {
+  background-image: url(../../img/icons/icon_ok.svg);
+}
+
+li.pricing-card__option_cancel {
+  background-image: url(../../img/icons/icon_cancel.svg);
+}
+
+.pricing-card__pre-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 2.8rem;
+}
+
+.pricing-card__title {
+  margin-bottom: 2rem;
+
+  text-align: center;
+
+  background: var(--accent-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pricing-card__currency {
+  margin-left: -.7rem;
+
+  font-size: 1.6rem;
+}
+
+.pricing-card__description {
+  padding: 0 1rem;
+  margin-bottom: 3.8rem;
+
+  line-height: 2.4rem;
+}
+
+.pricing-plans__button {
+  display: block;
+
+  margin: 4rem 1rem 2rem;
+}
+
+.pricing-card__footer-text {
+  padding: 0 1rem;
+
+  line-height: 2.4rem;
+}

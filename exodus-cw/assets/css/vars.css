@@ -1,0 +1,32 @@
+:root {
+
+  /* Base font-size 10px (62.5%) */
+  --font-size: .5209vw;
+
+  /* Colors */
+  --accent-1:         #EC6F66;
+  --accent-2:         #F3A183;
+  --accent-gradient:  linear-gradient(to right, var(--accent-1), var(--accent-2));
+  --accent-shadow:    0 .6rem 1rem 0 #ff696532;
+
+  --yellow-50:        #E5AE40;
+
+  --gray-0:           #F7F7FA;
+  --gray-30:          #868686;
+  --gray-60:          #505055;
+  --gray-80:          #3A3A44;
+  --gray-90:          #031D5B;
+  --gray-100:         #19191D;
+  --gray-shadow-50:   0 1rem 3.4rem 0 #D2D2D27f;
+
+  --white:            #ffffff;
+  --white-gradient:   linear-gradient(to bottom, #ffffff1a, #ffffff00);
+  --lighter:          #F5F5F5;
+  --black:            #000000;
+  --black-gradient:   linear-gradient(to bottom, #000000 -93.26%, #00000000 95.67%);
+  --black-radial:     radial-gradient(83.36% 263.46% at 20.03% 40.37%, #00000000 16.01%, #000000b0 89.84%);
+  --black-shadow-4:   0 0 2.4rem 0 #0000000a;
+  --black-shadow-20:  0 .5rem 13rem 0 #00000014;
+  --darker:           #222222;
+
+}

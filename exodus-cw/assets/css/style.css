@@ -1,0 +1,31 @@
+/* General */
+
+@import url(./fonts.css);
+@import url(./vars.css);
+@import url(./reset.css);
+
+@import url(./landing.css);
+
+
+
+/* Sections */
+
+@import url(./sections/earn-crypto-rewards.css);
+@import url(./sections/footer.css);
+@import url(./sections/header.css);
+@import url(./sections/pricing&plans.css);
+@import url(./sections/steps.css);
+@import url(./sections/testimonials.css);
+@import url(./sections/why.css);
+
+
+
+/* Components */
+
+@import url(./components/button.css);
+@import url(./components/footer-col.css);
+@import url(./components/nav.css);
+@import url(./components/pricing-card.css);
+@import url(./components/step.css);
+@import url(./components/testimonial-card.css);
+@import url(./components/why-box.css);

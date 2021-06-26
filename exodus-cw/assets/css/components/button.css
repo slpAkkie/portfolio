@@ -1,0 +1,52 @@
+.button {
+  position: relative;
+
+  display: inline-block;
+
+  padding: 1.5rem 4rem;
+
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 900;
+  letter-spacing: .14rem;
+
+  border-radius: .6rem;
+
+  cursor: pointer;
+  overflow: hidden;
+  transition: box-shadow .15s ease;
+}
+
+.button::after {
+  content: '';
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  border-width: .2rem;
+  border-style: solid;
+  border-image: var(--accent-gradient);
+  border-image-slice: 1;
+}
+
+.button:hover {
+  box-shadow: var(--accent-shadow);
+}
+
+.button_accent {
+  color: var(--white);
+
+  background: var(--accent-gradient);
+}
+
+.button_light {
+  background: var(--accent-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-radius: 0rem;
+}

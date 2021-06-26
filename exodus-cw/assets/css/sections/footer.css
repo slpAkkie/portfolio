@@ -1,0 +1,124 @@
+.footer {
+  background-color: var(--white);
+}
+
+.footer__header {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 10rem 0 8rem;
+}
+
+.footer__logo-link,
+.footer__logo {
+  display: block;
+}
+
+.footer__logo {
+  width: 15.5rem;
+  height: 5.4rem;
+}
+
+.footer__search-box {
+  position: relative;
+}
+
+.footer__search {
+  width: 42rem;
+  padding: 1.7rem 2.3rem;
+
+  font-size: 1.4rem;
+
+  border: .2rem solid var(--lighter);
+  border-radius: .6rem;
+
+  transition: box-shadow .15s ease;
+}
+
+.footer__search:focus {
+  box-shadow: var(--gray-shadow-50);
+}
+
+.footer__search-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  width: 4.8rem;
+  height: 5.4rem;
+  padding: 1.8rem 1.5rem;
+
+  cursor: pointer;
+}
+
+.footer__menus {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hr.footer__separater {
+  margin: 4rem auto 0;
+}
+
+.footer__copyright,
+.footer__socials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__copyright {
+  padding: 5.3rem 0;
+
+  color: var(--gray-30);
+  font-size: 1.4rem;
+}
+
+.footer__social-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 5rem;
+  height: 5rem;
+
+  background-color: var(--lighter);
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 5rem;
+
+  cursor: pointer;
+  transition-property: background, box-shadow;
+  transition-duration: .15s;
+  transition-timing-function: ease;
+}
+
+.footer__social-wrapper + .footer__social-wrapper {
+  margin-left: 1rem;
+}
+
+.footer__social-wrapper:hover {
+  background-color: var(--white);
+  box-shadow: var(--accent-shadow);
+}
+
+.footer__social {
+  width: 1.7rem;
+  height: 1.7rem;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.footer__social_facebook {
+  background-image: url(../../img/icons/icon_facebook.svg);
+}
+
+.footer__social_twitter {
+  background-image: url(../../img/icons/icon_twitter.svg);
+}
+
+.footer__social_yt {
+  background-image: url(../../img/icons/icon_yt.svg);
+}

@@ -1,0 +1,27 @@
+.why {
+  text-align: center;
+
+  background: url(../../img/section_bg/why__background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.why__title {
+  width: 83.2rem;
+  margin: 0 auto;
+
+  color: var(--white);
+  font-weight: 500;
+}
+
+.why__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 121rem;
+  margin: 5rem auto 0;
+
+  background-color: var(--white);
+}

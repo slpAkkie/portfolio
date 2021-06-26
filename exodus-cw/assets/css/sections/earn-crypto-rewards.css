@@ -1,0 +1,146 @@
+.earn-crypto-rewards {
+  position: relative;
+
+  height: 88.8rem;
+  padding: 10rem 0;
+}
+
+.earn-crypto-rewards__image {
+  position: absolute;
+  top: 10rem;
+  left: 0;
+
+  width: 85.9rem;
+  height: 68.8rem;
+}
+
+.earn-crypto-rewards__container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  height: 100%;
+}
+
+.earn-crypto-rewards__inner {
+  display: flex;
+  align-items: center;
+
+  width: 74rem;
+  margin-left: 10.8rem;
+}
+
+.earn-crypto-rewards__title {
+  margin-bottom: 2.5rem;
+}
+
+.earn-crypto-rewards__description {
+  width: 47.1rem;
+  margin-bottom: 3.2rem;
+
+  line-height: 3rem;
+}
+
+.earn-crypto-rewards__angle-wrapper {
+  display: flex;
+  align-items: center;
+
+  margin-left: 8.4rem;
+}
+
+.earn-crypto-rewards__angle {
+  width: 2.1rem;
+  height: 3.798rem;
+
+  cursor: pointer;
+}
+
+.earn-crypto-rewards__learn-more {
+  position: relative;
+
+  display: block;
+
+  width: 11.2rem;
+}
+
+.earn-crypto-rewards__learn-more::after {
+  content: '';
+
+  position: absolute;
+  top: 50%;
+  right: 0;
+  bottom: 0;
+
+  width: 1.2rem;
+  height: 1.2rem;
+
+  background: url(../../img/icons/icon_arrow-right.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  transform: translateY(-50%);
+}
+
+.earn-crypto-rewards__dots {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 12.418rem;
+  margin-top: 4.3rem;
+}
+
+.earn-crypto-rewards__dot {
+  width: 1rem;
+  height: 1rem;
+
+  background-color: var(--gray-80);
+  border-radius: 1rem;
+  opacity: .2;
+
+  cursor: pointer;
+}
+
+.earn-crypto-rewards__dot_active {
+  position: relative;
+
+  padding: .5rem;
+
+  background: var(--accent-gradient);
+  opacity: 1;
+}
+
+.earn-crypto-rewards__dot_active::before,
+.earn-crypto-rewards__dot_active::after {
+  content: '';
+
+  position: absolute;
+  top: 50%;
+  right: 0;
+  bottom: 0;
+  left: calc(50% + .040615rem);
+
+  border-radius: 1rem;
+
+  transform: translate(-50%, -50%);
+}
+
+.earn-crypto-rewards__dot_active::before {
+  width: 2rem;
+  height: 2rem;
+
+  background: var(--accent-gradient);
+  opacity: .75;
+
+  z-index: -2;
+}
+
+.earn-crypto-rewards__dot_active::after {
+  width: 1.8rem;
+  height: 1.8rem;
+
+  background-color: var(--gray-0);
+
+  z-index: -1;
+}

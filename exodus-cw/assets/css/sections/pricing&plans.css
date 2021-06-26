@@ -1,0 +1,19 @@
+.pricing-plans {
+  background-color: var(--white);
+}
+
+.pricing-plans__title {
+  margin-bottom: 1.9rem;
+}
+
+.pricing-plans__description {
+  text-align: center;
+}
+
+.pricing-plans__cards {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  margin-top: 4.3rem;
+}

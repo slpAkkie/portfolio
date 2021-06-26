@@ -1,0 +1,61 @@
+/* Rubik */
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('../fonts/Rubik-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('../fonts/Rubik-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('../fonts/Rubik-Regular.ttf');
+  font-weight: 400;
+}
+
+
+
+/* Avenir */
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('../fonts/Avenir.woff2') format('woff2');
+  font-weight: 400;
+}
+
+
+
+/* Roboto */
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Black.ttf');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.ttf');
+  font-weight: 400;
+}
+
+
+
+/* Poppins */
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-Bold.ttf');
+  font-weight: 700;
+}

@@ -1,0 +1,39 @@
+.step {
+  flex-grow: 1;
+}
+
+.step + .step {
+  margin-left: 8.9rem;
+}
+
+.step__number {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 7rem;
+  height: 7rem;
+
+  color: var(--white);
+  font-family: Poppins;
+  font-size: 3.4rem;
+
+  background: var(--accent-gradient);
+  border-radius: .6rem;
+}
+
+.step__title {
+  margin-top: 2.6rem;
+}
+
+.step__hr {
+  width: 7.2rem;
+  height: 0.4rem;
+  margin: 2.9rem 0 1.8rem;
+
+  background: var(--accent-gradient);
+}
+
+.step__description {
+  line-height: 1.8em;
+}

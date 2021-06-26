@@ -1,0 +1,19 @@
+.why-box {
+  padding: 8rem;
+}
+
+hr.why__separater {
+  flex-grow: 1;
+  flex-shrink: 0;
+
+  height: 18rem;
+  margin: 0 .1rem;
+}
+
+.why-box__sub-title {
+  margin: 3rem 0 1.4rem;
+}
+
+.why-box__description {
+  line-height: 2.8rem;
+}
