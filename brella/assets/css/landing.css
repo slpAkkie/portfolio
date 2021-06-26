@@ -10,6 +10,8 @@
 
 .section {
   padding: 12rem 0;
+
+  background-color: var(--white);
 }
 
 .section_no-gap {
