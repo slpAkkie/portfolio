@@ -1,0 +1,16 @@
+.for-employers {
+  padding: 12.5rem 0 11.4rem;
+
+  background: url(../../img/woman-bg.png), var(--light-2);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: contain;
+}
+
+.for-employers__inner {
+  width: 50rem;
+}
+
+.for-employers__title {
+  width: 39rem;
+}

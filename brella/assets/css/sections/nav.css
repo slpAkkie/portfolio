@@ -1,0 +1,116 @@
+.nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  padding: 2.5rem 4.5rem;
+
+  color: var(--primary-dark);
+  font-weight: 700;
+  font-size: 1.4rem;
+
+  background-color: transparent;
+
+  z-index: 10;
+  transition: background-color .15s ease;
+}
+
+.nav.nav_scrolled {
+  background-color: var(--white);
+}
+
+.nav__inner,
+.nav__menu {
+  display: flex;
+  align-items: center;
+}
+
+.nav__logo {
+  width: 7.5rem;
+  height: 2.4rem;
+}
+
+.nav__menu {
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+.nav__item {
+  position: relative;
+
+  padding: .5rem 0;
+
+  text-transform: capitalize;
+
+  cursor: pointer;
+}
+
+.nav__item::after {
+  content: '';
+
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  width: 0%;
+  height: .2rem;
+  margin: 0 auto;
+
+  background-color: var(--primary-dark);
+  opacity: 0;
+
+  transition-property: width, opacity;
+  transition-duration: .15s;
+  transition-timing-function: ease;
+}
+
+.nav__item:hover::after {
+  width: 85%;
+
+  opacity: .9;
+}
+
+.nav__item + .nav__item {
+  margin-left: 5rem;
+}
+
+.nav__request-button {
+  margin-left: 6.9rem;
+  margin-right: 2.9rem;
+}
+
+.nav__login,
+.nav__language {
+  font-size: 1.3rem;
+}
+
+.nav__login {
+  position: relative;
+
+  margin-right: 4rem;
+  padding-right: 1.8rem;
+}
+
+.nav__login::after {
+  content: '';
+
+  position: absolute;
+  top: 50%;
+  right: 0;
+
+  width: 1.2rem;
+  height: .7rem;
+
+  background: url(../../img/icons/angel_down.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+
+  transform: translateY(-50%);
+}
+
+.nav__language {
+  text-transform: uppercase;
+}

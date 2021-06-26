@@ -1,0 +1,25 @@
+.proudly__title {
+  text-align: center;
+}
+
+.proudly__sponsors {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 11rem;
+}
+
+.proudly__control {
+  width: 3.2rem;
+  padding: 2.45rem 0.4rem;
+
+  opacity: .45;
+
+  cursor: pointer;
+  transition: opacity .15s ease;
+}
+
+.proudly__control:hover {
+  opacity: 1;
+}

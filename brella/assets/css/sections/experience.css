@@ -1,0 +1,14 @@
+.experience__inner {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.experience__mokup {
+  width: 29.6rem;
+}
+
+.experience__content-box {
+  width: 68.6rem;
+  padding: 6.8rem 2rem 0 12rem;
+  margin-left: 10.3rem;
+}

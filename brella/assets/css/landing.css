@@ -1,0 +1,34 @@
+.container {
+  width: 126rem;
+  padding: 0 3rem;
+  margin: 0 auto;
+}
+
+.text_underline {
+  text-decoration: underline;
+}
+
+.section {
+  padding: 12rem 0;
+}
+
+.section_no-gap {
+  padding: 0;
+}
+
+.section__title {
+  margin-bottom: 3.4rem;
+}
+
+.section__description {
+  margin-bottom: 2.5rem;
+}
+
+hr.hr {
+  width: min(135rem, 100%);
+  height: 0.1rem;
+  margin: 0 auto;
+
+  background-color: var(--gray-opacity);
+  border: none;
+}

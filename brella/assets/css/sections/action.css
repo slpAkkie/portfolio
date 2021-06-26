@@ -1,0 +1,35 @@
+.action {
+  display: flex;
+}
+
+.action__left,
+.action__right {
+  width: 50%;
+}
+
+.action__left {
+  position: relative;
+
+  background-image: url(../../img/man-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.action__right {
+  padding: 14.4rem 12rem 9.6rem;
+
+  background-color: var(--light);
+}
+
+.action__right-inner {
+  width: 42.3rem;
+}
+
+.action__title-1 {
+  margin-bottom: 5.7rem;
+}
+
+.action__title-2 {
+  margin-bottom: 6.5rem;
+}

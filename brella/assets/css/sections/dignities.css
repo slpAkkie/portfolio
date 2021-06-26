@@ -1,0 +1,32 @@
+.dignities {
+  position: relative;
+
+  height: 7.6rem;
+}
+
+.dignities__container {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.dignities__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 5rem;
+
+  background-color: var(--white);
+  border-radius: .6rem;
+  box-shadow: var(--light-2-shadow);
+}
+
+.dignity__title {
+  margin-bottom: 0.7rem;
+}
+
+.dignity__description {
+  font-size: 1.4rem;
+}

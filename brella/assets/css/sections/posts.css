@@ -1,0 +1,15 @@
+.post {
+  cursor: pointer;
+}
+
+.post:hover  .post__title {
+  text-decoration: underline;
+}
+
+.posts__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  padding: 0 1rem;
+}

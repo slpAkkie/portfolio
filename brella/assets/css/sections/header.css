@@ -1,0 +1,25 @@
+.header {
+  padding: 26rem 0 28rem;
+
+  background-image: url(../../img/man&woman.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+
+.header__title {
+  width: 51.6rem;
+  margin-bottom: 4rem;
+}
+
+.header__sub-title {
+  margin-bottom: 1.6rem;
+}
+
+.header__input-wrapper {
+  width: 40.3rem;
+}
+
+.header__input {
+  flex-grow: 1;
+}

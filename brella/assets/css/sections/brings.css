@@ -1,0 +1,53 @@
+.brings {
+  background: linear-gradient(to right, var(--light) 0% 50%, var(--primary-dark) 50% 100%);
+}
+
+.brings__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.brings__left,
+.brings__right {
+  width: 48.8rem;
+}
+
+.brings__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brings__arrow-right-wrapper {
+  padding: 1.2rem;
+
+  cursor: pointer;
+
+  transition: opacity .15s ease;
+}
+
+.brings__arrow-right-wrapper:hover {
+  opacity: .5;
+}
+
+.brings__arrow-right {
+  width: 2.5rem;
+  height: 1.9rem;
+}
+
+.brings__item {
+  margin-top: 1.8rem;
+
+  color: var(--primary);
+  font-family: Roboto;
+  font-size: 3.2rem;
+}
+
+.brings__right {
+  color: var(--white);
+  font-size: 2rem;
+}
+
+.brings__paragraph + .brings__paragraph {
+  margin-top: 3.5rem;
+}

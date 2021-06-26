@@ -1,0 +1,53 @@
+.button {
+  display: inline-block;
+
+  padding: 1.8rem;
+
+  color: var(--white);
+  font-weight: 700;
+  font-size: 1.3rem;
+
+  background-color: var(--primary-dark);
+  border: .2rem solid var(--primary-dark);
+  border-radius: .6rem;
+
+  cursor: pointer;
+
+  transition-property: background, color;
+  transition-duration: .15s;
+  transition-timing-function: ease;
+}
+
+.button:hover {
+  color: var(--primary-dark);
+
+  background-color: transparent;
+}
+
+.button_arrow {
+  position: relative;
+
+  padding: 1.8rem 2.5rem;
+}
+
+.button_arrow::after {
+  content: '';
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  width: 1.9rem;
+  height: 1.3rem;
+
+  background-image: url(../../img/icons/arrow_right_dark.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  transform: translate(-50%, -50%);
+}
+
+.button_small {
+  padding: 1.3rem 2.3rem;
+}

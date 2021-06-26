@@ -1,0 +1,28 @@
+.post {
+  width: 35.5rem;
+  margin: 0 1.7rem;
+}
+
+.post__img {
+  width: 35.5rem;
+  height: 23.7rem;
+
+  object-fit: cover;
+  object-position: top center;
+}
+
+.post__theme {
+  margin: 2rem 0 1.5rem;
+
+  color: var(--primary);
+  text-transform: uppercase;
+  font-family: Raleway;
+  font-size: 1.1rem;
+}
+
+.post__title {
+  color: var(--primary-dark);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 2rem;
+}

@@ -1,0 +1,11 @@
+.plan-coverage__header-box {
+  width: 55.6rem;
+}
+
+.plan-coverage__cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  margin: 12rem 0;
+}

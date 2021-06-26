@@ -1,0 +1,12 @@
+.sponsor-card {
+  width: 14.6rem;
+  margin: 0 4rem;
+
+  cursor: pointer;
+
+  transition: transform .15s ease;
+}
+
+.sponsor-card:hover {
+  transform: scale(1.1);
+}

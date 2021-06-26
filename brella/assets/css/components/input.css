@@ -1,0 +1,53 @@
+.input__wrapper {
+  display: inline-flex;
+
+  font-weight: 700;
+}
+
+.input {
+  padding: 2rem;
+
+  color: var(--darker);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 1.4rem;
+
+  border: none;
+  border-radius: .6rem 0 0 .6rem;
+}
+
+.input_color-reverse {
+  color: var(--white);
+
+  background-color: var(--primary-dark);
+  border: .1rem solid var(--white);
+  border-right: none;
+}
+
+.input_color-reverse::-webkit-input-placeholder {
+  color: var(--white);
+
+  opacity: .75;
+}
+
+.input_color-reverse + .button {
+  background-color: var(--white);
+  border-color: var(--white);
+}
+
+.input + .button {
+  border-radius: 0 .6rem .6rem 0;
+}
+
+.input_squared,
+.input_squared + .button {
+  border-radius: 0;
+}
+
+.input_squared + .button:hover {
+  background-color: transparent;
+}
+
+.input_squared + .button:hover::after {
+  filter: saturate(0) brightness(100);
+}

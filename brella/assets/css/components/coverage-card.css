@@ -1,0 +1,23 @@
+.coverage-card {
+  width: 26.2rem;
+}
+
+.coverage-card + .coverage-card {
+  margin-left: 5rem;
+}
+
+.coverage-card__header {
+  color: var(--accent);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 6rem;
+}
+
+
+.coverage-card__desciprion {
+  margin-top: 1.3rem;
+
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 2.2rem;
+}

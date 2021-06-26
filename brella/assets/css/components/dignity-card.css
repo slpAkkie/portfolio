@@ -1,0 +1,18 @@
+.dignity-card {
+  display: flex;
+
+  width: 35.6rem;
+
+  color: var(--primary-dark);
+}
+
+.dignity-card + .dignity-card {
+  margin-left: 1.6rem;
+}
+
+.dignity__icon {
+  width: auto;
+  height: 4.5rem;
+
+  margin-right: 1rem;
+}
