@@ -4,7 +4,7 @@
   background: url(../../img/woman-bg.png), var(--light-2);
   background-repeat: no-repeat;
   background-position: right top;
-  background-size: contain;
+  background-size: auto 600px;
 }
 
 .for-employers__inner {
