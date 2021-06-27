@@ -1,0 +1,66 @@
+.mission-card,
+.mission-card__icon-wrapper,
+.mission-card__icon {
+  transition-property: color, fill, background;
+  transition-duration: .25s;
+  transition-timing-function: ease;
+}
+
+.mission-card {
+  width: 40rem;
+
+  padding: 3.2rem;
+
+  border-radius: 1.6rem;
+
+  cursor: pointer;
+}
+
+.mission-card:nth-child(n + 2) {
+  margin-left: 1.6rem;
+}
+
+.mission-card:nth-child(4n) {
+  margin-left: 0;
+}
+
+.mission-card:nth-child(n + 4) {
+  margin-top: 1.6rem;
+}
+
+.mission-card:hover {
+  color: var(--text-white);
+
+  background-color: var(--primary-dark);
+}
+
+.mission-card__icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 8rem;
+  height: 8rem;
+
+  background-color: var(--secondary-light);
+  border-radius: 1.6rem;
+}
+
+.mission-card__icon {
+  width: 4rem;
+  height: 4rem;
+
+  fill: var(--primary-dark);
+}
+
+.mission-card:hover .mission-card__icon-wrapper {
+  background-color: var(--secondary);
+}
+
+.mission-card:hover .mission-card__icon {
+  fill: var(--white);
+}
+
+.mission-card__title {
+  margin: 2.4rem 0 1.6rem;
+}

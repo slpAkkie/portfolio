@@ -1,0 +1,9 @@
+.latest-blog {
+  background: var(--secondary-gradient);
+}
+
+.latest-blog__posts {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}

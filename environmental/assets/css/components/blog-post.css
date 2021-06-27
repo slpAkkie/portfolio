@@ -1,0 +1,33 @@
+.blog-post {
+  padding: 1.6rem;
+
+  background-color: var(--white);
+  border-radius: 1.6rem;
+
+  cursor: pointer;
+  transition: box-shadow .15s ease-out;
+}
+
+.blog-post:hover {
+  box-shadow: 0 1rem 5rem -3rem var(--primary-hover);
+}
+
+.blog-post + .blog-post {
+  margin-left: 1.6rem;
+}
+
+.blog-post__image {
+  width: 36.8rem;
+  height: 24rem;
+
+  background-color: var(--image-placeholder);
+  border-radius: .8rem;
+}
+
+.blog-post__tags {
+  margin: 1.6rem 0;
+}
+
+.blog-post__title {
+  margin-bottom: 1.6rem;
+}

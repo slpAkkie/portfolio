@@ -1,0 +1,17 @@
+.button.section__header-button {
+  padding: 1.2rem 5.7rem;
+}
+
+.latest-project__header {
+  margin-bottom: 4rem;
+}
+
+.latest-project__posts {
+  display: grid;
+  grid-template-rows: repeat(3, 24rem);
+  grid-template-columns: repeat(3, 40rem);
+  grid-template-areas: "big big common"
+                       "big big common"
+                       "big big common";
+  grid-gap: 1.6rem;
+}

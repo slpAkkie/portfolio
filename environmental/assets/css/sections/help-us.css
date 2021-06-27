@@ -1,0 +1,36 @@
+.help-us {
+  position: relative;
+
+  color: var(--text-white);
+}
+
+.help-us::after {
+  content: '';
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+
+  width: 50%;
+  height: 100%;
+
+  background: url(../../img/help-us-bg.svg), linear-gradient(to right, var(--primary-dark) 0% 50%, transparent 50% 100%);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right top;
+
+  z-index: -1;
+}
+
+.help-us__inner {
+  width: 50.4rem;
+}
+
+.help-us__title {
+  margin-bottom: 2.4rem;
+}
+
+.help-us__button + .help-us__button {
+  margin-left: 2.4rem;
+}

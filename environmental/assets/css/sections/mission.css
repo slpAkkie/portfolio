@@ -1,0 +1,15 @@
+.mission {
+  background: var(--secondary-gradient);
+}
+
+.mission__title {
+  width: 60.8rem;
+  margin-bottom: 4rem;
+}
+
+.mission__cards {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
