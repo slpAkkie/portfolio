@@ -11,7 +11,7 @@
 }
 
 html {
-    font-size: 0.5322vw; /* 10px */
+    font-size: var(--font-size);
 }
 
 body {

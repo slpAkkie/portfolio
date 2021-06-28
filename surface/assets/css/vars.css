@@ -1,9 +1,13 @@
 :root {
+
+    /* Base font size 10px (62.5%) */
+    --font-size: .5209vw;
+
     /* Colors */
     --accent-light: #a496ca;
     --accent: #5e42b0;
     --accent-dark: #0a0e34;
-    
+
     --muted: #e7e7e7;
     --muted-2: #c1c1c1;
     --muted-3: #f6f4fa;
