@@ -20,7 +20,11 @@
 }
 
 .header__article {
+  position: relative;
+
   color: var(--white);
+
+  z-index: 1;
 }
 
 .header__title {
@@ -28,7 +32,11 @@
 }
 
 .header__scroll-wrapper {
+  position: relative;
+
   margin-top: 14.4rem;
+
+  z-index: 1;
 }
 
 .header__scroll {

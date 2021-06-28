@@ -12,6 +12,8 @@
 
   width: 85.9rem;
   height: 68.8rem;
+
+  z-index: -1;
 }
 
 .earn-crypto-rewards__container {
