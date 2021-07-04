@@ -6,7 +6,8 @@
   margin-bottom: 1.9rem;
 }
 
-.pricing-plans__description {
+.pricing-plans__description,
+.pricing-card__footer-text {
   text-align: center;
 }
 
