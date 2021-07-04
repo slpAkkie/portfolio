@@ -1,5 +1,4 @@
 .testimonial-card {
-  width: 60.2rem;
   padding: 4.5rem 5rem 3.6rem;
 
   background-color: var(--white);
@@ -42,12 +41,11 @@
 
 .testimonial-card__stars,
 .testimonial-card__stars_checked {
-  width: 9.5rem;
+  width: 9.7rem;
   height: 1.8rem;
 
   background-repeat: no-repeat;
   background-position: left center;
-  background-size: cover;
 }
 
 .testimonial-card__stars {
